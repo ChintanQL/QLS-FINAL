@@ -1,6 +1,68 @@
 /*start  Responsive  */
 
+/*Model  Popup  Css */
 
+.video-modal {
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.75);
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.video-modal .modal-dialog.modal-lg.modal-dialog-centered.modal-fullscreen {
+    line-height: initial;
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    text-align: left;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    background: #40434c;
+    background-size: cover;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-image: url(https://www.qlspace.com.au/wp-content/uploads/2023/05/QLS-1.jpg);
+    display: flex;
+    z-index: 999999;
+}
+
+.video-modal .modal-dialog.modal-lg.modal-dialog-centered.modal-fullscreen .modal-content {
+    background: transparent;
+}
+
+.thfd {
+    height: 100vh;
+    display: table;
+    margin: 0 auto;
+}
+
+.thfgr {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.right3 {
+    max-width: 640px;
+    margin: auto;
+    width: 100%;
+    float: none;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 310px;
+    font-size: 20px;
+}
 
 
 @media(min-width: 1500px){
