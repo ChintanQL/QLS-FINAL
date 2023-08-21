@@ -3,7 +3,7 @@ import { Link, StaticQuery, navigate,useStaticQuery } from "gatsby"
 
 import { Modal, Form, Button } from 'react-bootstrap';
 import Cookies from 'universal-cookie';
-import { init, track } from 'analytics-library';
+
 import { useHistory } from 'react-router-dom'; // Make sure to import the useHistory hook
 
 import "../../stylee.css"
