@@ -76,7 +76,7 @@ class NavBar extends Component {
 		 if (checkBox.checked == true){
 			 console.log("here");	
 			 //cookies.set('Popup', "1", { domain: '.qltech.com.au' , path: '/' , maxAge: 1000000});
-			 cookies.set('Popup', "1", { domain: '.netlify.app' , path: '/' , maxAge: 1000000});
+			 cookies.set('Popup', "1", {  path: '/' , maxAge: 1000000});
 			this.setState({
 				isOpen:false,
 			})
