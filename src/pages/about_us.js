@@ -4,7 +4,7 @@ import "../responsive.css"
 import { useState, useEffect, useRef } from "react";
 import { graphql, StaticQuery, Link } from "gatsby";
 import ReactFullpage from "@fullpage/react-fullpage";
-import NavBar from "../components/Header/nav-bar";
+import NavBar from "../components/Header/NavBar";
 import Footer from "../components/footer/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
