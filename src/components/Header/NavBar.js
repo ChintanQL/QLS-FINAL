@@ -160,7 +160,7 @@ class NavBar extends Component {
                           
                           const itemToRender = prop.label === "Home" ?
                             (
-                              <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
+                              <li className={`nav-item ${i === this.state.activeMenuItem ? "active" : ""}`}
                                 onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={"/"}
@@ -171,7 +171,7 @@ class NavBar extends Component {
                                 </Link>
                               </li>
                             ) : prop.label === "What's New" ? (
-                              <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
+                              <li className={`nav-item ${i === this.state.activeMenuItem ? "active" : ""}`}
                                 onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={"/news"}
@@ -182,7 +182,7 @@ class NavBar extends Component {
                                 </Link>
                               </li>
                             ) : (
-                              <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
+                              <li className={`nav-item ${i === this.state.activeMenuItem ? "active" : ""}`}
                                 onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={
