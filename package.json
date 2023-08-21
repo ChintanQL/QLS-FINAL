@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "my-gatsby-site",
-  "author": "amit kumar",
+  "author": "Qltech Family",
   "keywords": [
     "gatsby"
   ],
@@ -36,6 +36,7 @@
     "react-helmet": "^6.1.0",
     "react-modal": "^3.16.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "universal-cookie": "^4.0.4"
   }
 }
