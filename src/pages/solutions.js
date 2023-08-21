@@ -10,7 +10,7 @@ import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 import Layout from '../components/layout/layout';
-import NavBar from '../components/Header/nav-bar';
+import NavBar from '../components/Header/NavBar';
 import Footer from '../components/footer/footer';
 
 const Solution = () => {
