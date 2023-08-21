@@ -75,8 +75,7 @@ class NavBar extends Component {
 		 const cookies = new Cookies();
 		 if (checkBox.checked == true){
 			 console.log("here");	
-			 //cookies.set('Popup', "1", { domain: '.qltech.com.au' , path: '/' , maxAge: 1000000});
-			 cookies.set('Popup', "1", { domain: '.netlify.app' , path: '/' , maxAge: 1000000});
+			 cookies.set('Popup', "1", { domain: '.qltech.com.au' , path: '/' , maxAge: 1000000});
 			this.setState({
 				isOpen:false,
 			})
@@ -123,19 +122,28 @@ class NavBar extends Component {
             aria-labelledby="contained-modal-title-vcenter"
             centered >
                 <Modal.Body className="p-0">
-                    
+                    <div class="popup-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="thfd">
+            <div class="thfgr">
+              <div class="right3">
 					
 					
 					<p className="sub_sub_title" >QL Tech is headquartered on Whadjuk Nyoongar Boodjar. We acknowledge the Whadjuk people as the traditional owners and custodians of these lands, waterways and skies and pay our respects to their Elders, past and present.</p>
 					
-			<p className="sub_sub_title" >We also offer our heartfelt gratitude to Aboriginal and Torres Strait Islander people and communities across all lands in which QL Tech operates. QL Tech recognizes their generosity and wisdom in how they continue to care for Country and share their knowledge, which in turn helps us to understand and navigate Country safely and respectfully.</p>		
-                </Modal.Body>
-				<Modal.Footer>
-				  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+			<p className="sub_sub_title" >We also offer our heartfelt gratitude to Aboriginal and Torres Strait Islander people and communities across all lands in which QL Tech operates. QL Tech recognizes their generosity and wisdom in how they continue to care for Country and share their knowledge, which in turn helps us to understand and navigate Country safely and respectfully.</p>
+			
+			<Form.Group className="mb-3" controlId="formBasicCheckbox">
 					<Form.Check onChange={this.handleChange} id="disabledSelect" type="checkbox" label="I acknowledge" />
 				  </Form.Group>
 				  <Button  id="btnn" className={this.state.isBoxVisible} onClick={this.handleClick} variant="primary">Continue</Button>
-				</Modal.Footer>
+			
+			</div></div></div></div></div></div></div>
+				
+                </Modal.Body>
+				
             </Modal>
 		    <StaticQuery
       query={graphql`
