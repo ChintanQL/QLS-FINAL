@@ -23,12 +23,15 @@ class NavBar extends Component {
 			code:"",
 			shown: "d-none",
 			isOpen:false,
+			isOpene:false,
 			iscookie:0,
 			isBoxVisible:"opa",
 			activeMenuItem: 0
 		};
 		this.modalOpen = this.modalOpen.bind(this);
+		this.modalOpene = this.modalOpene.bind(this);
 		this.modalClose = this.modalClose.bind(this);
+		this.modalClosee = this.modalClosee.bind(this);
 		this.CheckModel = this.CheckModel.bind(this);
 		this.handleClick = this.handleClick.bind(this);
 		this.handleChange = this.handleChange.bind(this);
@@ -88,9 +91,21 @@ class NavBar extends Component {
 		})
 	}
 	
+	modalOpene(){
+		this.setState({
+			isOpene:true,
+		})
+	}
+	
 	modalClose(){
 		this.setState({
 			isOpen:false,
+		})
+	}
+	
+	modalClosee(){
+		this.setState({
+			isOpene:false,
 		})
 	}
 	
@@ -207,7 +222,7 @@ class NavBar extends Component {
                     </ul>
                     <div className="our_cong d-flex">
                       <div className="list_ys">
-                        <button onClick={this.handleClick}>Contact Us</button>
+                        <button onClick={this.modalOpene}>Contact Us</button>
                       </div>
                     </div>
 
@@ -219,25 +234,16 @@ class NavBar extends Component {
             </header>
           </div>
                        
-          <div
-            className="overlay"
-            style={{ display: showModal ? "block" : "none" }}>
-
-          </div>
+         
           <div className="scrollbtn">
             <ScrollToTopButton />
           </div>
-          <div className="modal fade model_wrt contactpop show" tabIndex="-1" role="dialog" style={{ display: showModal ? 'block' : 'none' }}>
-
-            <div className="modal-dialog modal-dialog-centered model_inner">
-              <div className="modal-content model_inncnr" style={{ padding: '65px 55px 20px 55px' }}>
-                <div className="modal-header model_inncheadr">
-                  <h5 className="modal-title title_wrap" id="contact_usLabel">Get in touch</h5>
-                  <div className="our_span"><p>Fill up the form our team will get back to you within 24 Hours</p></div>
-                  <button type="button" class="btn-close" aria-label="Close" onClick={() => setShowModal(false)}>X</button>
-                </div>
-                <div className="modal-body bodtr">
-                  <div className="fomr_raog">
+		  
+		  <Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpene} onHide={this.modalClosee} size="lg" className="video-modal model-custom"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered >
+                <Modal.Body className="p-0 bodtr">
+                 <div className="fomr_raog">
 
                     <div className="wpcf7 js" id="wpcf7-f463-o1" lang="en-US" dir="ltr">
                       <div className="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
@@ -248,12 +254,18 @@ class NavBar extends Component {
                         scrolling="no"
                       ></iframe>
                     </div>
-                  </div>
-                </div>
+                  </div>		
+                </Modal.Body>
+				
+            </Modal>
+		  
+		  
+		  
+		  
+		  
+          
 
-              </div>
-            </div>
-          </div>
+            
         </div>
       )}
 
