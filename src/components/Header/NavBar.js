@@ -207,7 +207,7 @@ class NavBar extends Component {
                     </ul>
                     <div className="our_cong d-flex">
                       <div className="list_ys">
-                        <button onClick={handleClick}>Contact Us</button>
+                        <button onClick={this.handleClick}>Contact Us</button>
                       </div>
                     </div>
 
