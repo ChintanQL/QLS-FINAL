@@ -3,9 +3,6 @@ import { Link, StaticQuery, navigate,useStaticQuery } from "gatsby"
 
 import { Modal, Form, Button } from 'react-bootstrap';
 import Cookies from 'universal-cookie';
-
-import { useHistory } from 'react-router-dom'; // Make sure to import the useHistory hook
-
 import "../../stylee.css"
 import logo from '../../image/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
