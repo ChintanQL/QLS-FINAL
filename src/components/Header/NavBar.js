@@ -1,5 +1,5 @@
 import React, { useState, useEffect,Component } from "react"
-import { Link, StaticQuery, navigate,useStaticQuery } from "gatsby"
+import { Link, StaticQuery, navigate, useStaticQuery, graphql } from "gatsby"
 
 import { Modal, Form, Button } from 'react-bootstrap';
 import Cookies from 'universal-cookie';
