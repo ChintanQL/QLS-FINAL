@@ -24,7 +24,8 @@ class NavBar extends Component {
 			shown: "d-none",
 			isOpen:false,
 			iscookie:0,
-			isBoxVisible:"opa"
+			isBoxVisible:"opa",
+			activeMenuItem: 0
 		};
 		this.modalOpen = this.modalOpen.bind(this);
 		this.modalClose = this.modalClose.bind(this);
@@ -160,7 +161,7 @@ class NavBar extends Component {
                           const itemToRender = prop.label === "Home" ?
                             (
                               <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
-                                onClick={() => setActiveMenuItem(i)}>
+                                onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={"/"}
                                   className="nav-link"
@@ -171,7 +172,7 @@ class NavBar extends Component {
                               </li>
                             ) : prop.label === "What's New" ? (
                               <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
-                                onClick={() => setActiveMenuItem(i)}>
+                                onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={"/news"}
                                   className="nav-link"
@@ -182,7 +183,7 @@ class NavBar extends Component {
                               </li>
                             ) : (
                               <li className={`nav-item ${i === activeMenuItem ? "active" : ""}`}
-                                onClick={() => setActiveMenuItem(i)}>
+                                onClick={() => this.setState({ activeMenuItem: i })}>
                                 <Link
                                   to={
                                     "/" +
