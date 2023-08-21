@@ -1,5 +1,5 @@
 import React, { useState, useEffect,Component } from "react"
-import { Link, StaticQuery, navigate } from "gatsby"
+import { Link, StaticQuery, navigate,useStaticQuery } from "gatsby"
 
 import { Modal, Form, Button } from 'react-bootstrap';
 import Cookies from 'universal-cookie';
@@ -11,7 +11,6 @@ import logo from '../../image/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { useStaticQuery, graphql } from 'gatsby';
 import ScrollToTopButton from "../scroll_top/scroll_top";
 
 
@@ -116,4 +115,4 @@ class NavBar extends Component {
 
 }
 
-export default NavBar
+export default NavBar		
