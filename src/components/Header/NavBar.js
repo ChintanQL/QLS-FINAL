@@ -102,6 +102,24 @@ class NavBar extends Component {
 	render() {
 		return (
 			<>
+			<Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpen} onHide={this.modalClose} size="lg" className="video-modal model-custom"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered >
+                <Modal.Body className="p-0">
+                    
+					
+					
+					<p className="sub_sub_title" >QL Tech is headquartered on Whadjuk Nyoongar Boodjar. We acknowledge the Whadjuk people as the traditional owners and custodians of these lands, waterways and skies and pay our respects to their Elders, past and present.</p>
+					
+			<p className="sub_sub_title" >We also offer our heartfelt gratitude to Aboriginal and Torres Strait Islander people and communities across all lands in which QL Tech operates. QL Tech recognizes their generosity and wisdom in how they continue to care for Country and share their knowledge, which in turn helps us to understand and navigate Country safely and respectfully.</p>		
+                </Modal.Body>
+				<Modal.Footer>
+				  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+					<Form.Check onChange={this.handleChange} id="disabledSelect" type="checkbox" label="I acknowledge" />
+				  </Form.Group>
+				  <Button  id="btnn" className={this.state.isBoxVisible} onClick={this.handleClick} variant="primary">Continue</Button>
+				</Modal.Footer>
+            </Modal>
 			</>
 		)
 	}
