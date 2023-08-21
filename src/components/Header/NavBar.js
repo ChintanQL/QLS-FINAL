@@ -35,77 +35,73 @@ class NavBar extends Component {
 		this.handleClick = this.handleClick.bind(this);
 		this.handleChange = this.handleChange.bind(this);
 		
-		
-		CheckModel(){
-			const cookies = new Cookies();
-			if(cookies.get("Popup") == undefined){
-				this.setState({
-					isOpen:true,
-				})
-			}
-			else{
-				if(cookies.get("Popup") == 0){
-					this.setState({
-						isOpen:true,
-					})
-				}
-				
-			}
-		}
-		
-		handleChange() {
-			 var checkBox = document.getElementById("disabledSelect");
-			if (checkBox.checked == true){
-				 this.setState({
-					isBoxVisible:"",
-				})
-			}
-			else{
-				this.setState({
-					isBoxVisible:"opa",
-				}) 
-			}
-		}
-		
-		handleClick() {    
-			 var checkBox = document.getElementById("disabledSelect");
-			 var btnn = document.getElementById("btnn");
-			 const cookies = new Cookies();
-			 if (checkBox.checked == true){
-				 console.log("here");	
-				 cookies.set('Popup', "1", { domain: '.qltech.com.au' , path: '/' , maxAge: 1000000});
-				this.setState({
-					isOpen:false,
-				})
-			  }
-			else{
-				console.log("there");	
-			}
-		}
-		
-		modalOpen(){
+	}
+	
+	CheckModel(){
+		const cookies = new Cookies();
+		if(cookies.get("Popup") == undefined){
 			this.setState({
 				isOpen:true,
 			})
 		}
-		
-		modalClose(){
+		else{
+			if(cookies.get("Popup") == 0){
+				this.setState({
+					isOpen:true,
+				})
+			}
+			
+		}
+	}
+	
+	handleChange() {
+		 var checkBox = document.getElementById("disabledSelect");
+		if (checkBox.checked == true){
+			 this.setState({
+				isBoxVisible:"",
+			})
+		}
+		else{
+			this.setState({
+				isBoxVisible:"opa",
+			}) 
+		}
+	}
+	
+	handleClick() {    
+		 var checkBox = document.getElementById("disabledSelect");
+		 var btnn = document.getElementById("btnn");
+		 const cookies = new Cookies();
+		 if (checkBox.checked == true){
+			 console.log("here");	
+			 cookies.set('Popup', "1", { domain: '.qltech.com.au' , path: '/' , maxAge: 1000000});
 			this.setState({
 				isOpen:false,
 			})
+		  }
+		else{
+			console.log("there");	
 		}
-		
-		componentDidMount() {
-				
-			this.CheckModel();
-		}
-		
-		
-		    
 	}
 	
+	modalOpen(){
+		this.setState({
+			isOpen:true,
+		})
+	}
 	
+	modalClose(){
+		this.setState({
+			isOpen:false,
+		})
+	}
 	
+	componentDidMount() {
+			
+		this.CheckModel();
+	}
+		
+
 	render() {
 		return (
 			<>
@@ -115,4 +111,4 @@ class NavBar extends Component {
 
 }
 
-export default NavBar		
+export default NavBar
