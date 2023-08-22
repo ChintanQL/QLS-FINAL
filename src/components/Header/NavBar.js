@@ -35,6 +35,7 @@ class NavBar extends Component {
 		this.CheckModel = this.CheckModel.bind(this);
 		this.handleClick = this.handleClick.bind(this);
 		this.handleChange = this.handleChange.bind(this);
+		this.handleMenu = this.handleMenu.bind(this);
 		
 	}
 	
@@ -114,8 +115,12 @@ class NavBar extends Component {
 			
 		this.CheckModel();
 	}
-		
-
+	handleMenu(i){
+		this.setState({ activeMenuItem: i });
+		var element = document.getElementById("navbarSupportedContent");
+  		element.classList.remove("show");
+	}
+	
 	render() {
 		return (
 			<>
@@ -197,7 +202,7 @@ class NavBar extends Component {
                               </li>
                             ) : prop.label === "What's New" ? (
                               <li className={`nav-item ${i === this.state.activeMenuItem ? "active" : ""}`}
-                                onClick={() => this.setState({ activeMenuItem: i })}>
+                                onClick={() => this.handleMenu(i)}>
                                 <Link
                                   to={"/news"}
                                   className="nav-link"
@@ -208,7 +213,7 @@ class NavBar extends Component {
                               </li>
                             ) : (
                               <li className={`nav-item ${i === this.state.activeMenuItem ? "active" : ""}`}
-                                onClick={() => this.setState({ activeMenuItem: i })}>
+                                onClick={() => this.handleMenu(i)}>
                                 <Link
                                   to={
                                     "/" +
