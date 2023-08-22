@@ -1,5 +1,50 @@
 /*start  Responsive  */
+.form-check label.form-check-label {
+    vertical-align: sub;
+}
 
+p.sub_sub_title {
+    padding: 5px;
+    margin-top: 18px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.opa.btn.btn-primary {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #00D4FF;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.btn.btn-primary {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #00D4FF;
+    color: #fff;
+    opacity: 1;
+}
+
+@media(max-width:767px){
+	p.sub_sub_title {
+    font-size: 16px;
+    line-height: 25px;
+}
+.right3 {
+    overflow-y: scroll;
+}
+.form-check label.form-check-label {
+    font-size: 16px;
+}
+}
 /*Model  Popup  Css */
 
 .video-modal {
