@@ -86,8 +86,7 @@ class NavBar extends Component {
 		else{
 			console.log("there");	
 		}
-		fullpageApi.destroy('all');
-		console.log("all");
+		
 	}
 	
 	modalOpen(){
