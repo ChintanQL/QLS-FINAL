@@ -86,7 +86,7 @@ class NavBar extends Component {
 		else{
 			console.log("there");	
 		}
-		this.fullpageApi.destroy('all');
+		fullpageApi.destroy('all');
 		console.log("all");
 	}
 	
