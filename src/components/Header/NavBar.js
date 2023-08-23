@@ -82,6 +82,7 @@ class NavBar extends Component {
 			this.setState({
 				isOpen:false,
 			})
+			 location.reload(); 
 		  }
 		else{
 			console.log("there");	
