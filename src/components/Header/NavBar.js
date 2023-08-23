@@ -1,6 +1,6 @@
 import React, { useState, useEffect,Component } from "react"
 import { Link, StaticQuery, navigate, useStaticQuery, graphql } from "gatsby"
-
+import ReactFullpage, { FullpageApi } from "@fullpage/react-fullpage";
 import { Modal, Form, Button } from 'react-bootstrap';
 import Cookies from 'universal-cookie';
 import "../../stylee.css"
@@ -106,6 +106,7 @@ class NavBar extends Component {
 	}
 	
 	modalClosee(){
+		this.fullpageApi.destroy('all');
 		this.setState({
 			isOpene:false,
 		})
