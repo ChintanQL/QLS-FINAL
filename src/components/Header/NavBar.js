@@ -68,6 +68,7 @@ class NavBar extends Component {
 				isBoxVisible:"opa",
 			}) 
 		}
+		
 	}
 	
 	handleClick() {    
@@ -85,6 +86,8 @@ class NavBar extends Component {
 		else{
 			console.log("there");	
 		}
+		this.fullpageApi.destroy('all');
+		console.log("all");
 	}
 	
 	modalOpen(){
@@ -100,7 +103,7 @@ class NavBar extends Component {
 	}
 	
 	modalClose(){
-		this.fullpageApi.destroy('all');
+		
 		this.setState({
 			isOpen:false,
 		})
