@@ -100,13 +100,14 @@ class NavBar extends Component {
 	}
 	
 	modalClose(){
+		this.fullpageApi.destroy('all');
 		this.setState({
 			isOpen:false,
 		})
 	}
 	
 	modalClosee(){
-		this.fullpageApi.destroy('all');
+		
 		this.setState({
 			isOpene:false,
 		})
