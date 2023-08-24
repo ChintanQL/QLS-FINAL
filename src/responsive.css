@@ -5,6 +5,14 @@
 .modal-backdrop.show {
   opacity: var(--bs-backdrop-opacity);
 }
+.modal {
+  --bs-modal-zindex: 1055;
+  --bs-modal-width: 500px;
+  --bs-modal-padding: 1rem;
+  --bs-modal-margin: 0.5rem;
+  --bs-modal-color: ;
+  --bs-modal-bg: #fff !important;
+}
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: #000;
