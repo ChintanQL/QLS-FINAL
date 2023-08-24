@@ -12,6 +12,7 @@
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
   --bs-modal-bg: #000 !important;
+	z-index: 999999;
 }
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
