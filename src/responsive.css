@@ -11,7 +11,7 @@
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #fff !important;
+  --bs-modal-bg: #000 !important;
 }
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
