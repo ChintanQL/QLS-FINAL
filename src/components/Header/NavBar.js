@@ -259,7 +259,7 @@ class NavBar extends Component {
             <ScrollToTopButton />
           </div>
 		  
-	<Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpene} onHide={this.modalClosee} size="lg" className="video-modal model-custom"
+	<Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpene} onHide={this.modalClosee} size="lg" className="model_wrt  model-custom"
             aria-labelledby="contained-modal-title-vcenter"
             centered >
 	<div class="modal-dialog modal-dialog-centered model_inner">
