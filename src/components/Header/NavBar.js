@@ -259,25 +259,27 @@ class NavBar extends Component {
             <ScrollToTopButton />
           </div>
 		  
-		  <Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpene} onHide={this.modalClosee} size="lg" className="video-modal model-custom"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered >
-                <Modal.Body className="p-0 bodtr">
-                 <div className="fomr_raog">
-
-                    <div className="wpcf7 js" id="wpcf7-f463-o1" lang="en-US" dir="ltr">
-                      <div className="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-                    
-                      <iframe
+		  <div  className={"modal fade model_wrt " + (this.state.isOpene ? 'show' : '')} id="contact_us" tabindex="-1" aria-labelledby="contact_usLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered model_inner">
+		<div class="modal-content model_inncnr">
+			<div class="modal-header model_inncheadr">
+				<h5 class="modal-title title_wrap" id="contact_usLabel">Get in touch</h5>
+				<div class="our_span"><p>Fill up the form our team will get back to you within 24 Hours</p></div>
+				<button type="button" onClick={this.modalClosee}  class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+			</div>
+			<div class="modal-body bodtr">
+				<div class="fomr_raog">
+					<iframe
                         id="myIframe"
                         src="https://development.qlspace.com.au/contact-us/"
                         scrolling="no"
+						width="100%" height="500px"
                       ></iframe>
-                    </div>
-                  </div>		
-                </Modal.Body>
-				
-            </Modal>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 		  
 		  
 		  
