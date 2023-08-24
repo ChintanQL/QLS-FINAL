@@ -259,7 +259,9 @@ class NavBar extends Component {
             <ScrollToTopButton />
           </div>
 		  
-		  <div  className={"modal fade model_wrt " + (this.state.modalOpene ? 'show' : '')} id="contact_us" tabindex="-1" aria-labelledby="contact_usLabel" aria-hidden="true">
+	<Modal animation={false} fullscreen={true} keyboard={false} backdrop="static"  show={this.state.isOpene} onHide={this.modalClosee} size="lg" className="video-modal model-custom"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered >
 	<div class="modal-dialog modal-dialog-centered model_inner">
 		<div class="modal-content model_inncnr">
 			<div class="modal-header model_inncheadr">
@@ -279,7 +281,7 @@ class NavBar extends Component {
 			</div>
 		</div>
 	</div>
-</div>
+</Modal>
 		  
 		  
 		  
