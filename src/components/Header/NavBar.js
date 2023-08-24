@@ -259,7 +259,7 @@ class NavBar extends Component {
             <ScrollToTopButton />
           </div>
 		  
-		  <div  className={"modal fade model_wrt " + (this.state.isOpene ? 'show' : '')} id="contact_us" tabindex="-1" aria-labelledby="contact_usLabel" aria-hidden="true">
+		  <div  className={"modal fade model_wrt " + (this.state.modalOpene ? 'show' : '')} id="contact_us" tabindex="-1" aria-labelledby="contact_usLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered model_inner">
 		<div class="modal-content model_inncnr">
 			<div class="modal-header model_inncheadr">
