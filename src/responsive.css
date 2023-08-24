@@ -2,6 +2,7 @@
 .form-check label.form-check-label {
     vertical-align: sub;
 }
+
 .modal-backdrop.show {
   opacity: var(--bs-backdrop-opacity);
 }
