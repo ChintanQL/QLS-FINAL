@@ -142,9 +142,9 @@ class NavBar extends Component {
               <div class="right3">
 					
 					
-					<p className="sub_sub_title" >QL Tech is headquartered on Whadjuk Nyoongar Boodjar. We acknowledge the Whadjuk people as the traditional owners and custodians of these lands, waterways and skies and pay our respects to their Elders, past and present.</p>
+					<p className="sub_sub_title" >QL Space is headquartered on Whadjuk Nyoongar Boodjar. We acknowledge the Whadjuk people as the traditional owners and custodians of these lands, waterways, and skies and pay our respects to their Elders, past and present.</p>
 					
-			<p className="sub_sub_title" >We also offer our heartfelt gratitude to Aboriginal and Torres Strait Islander people and communities across all lands in which QL Tech operates. QL Tech recognizes their generosity and wisdom in how they continue to care for Country and share their knowledge, which in turn helps us to understand and navigate Country safely and respectfully.</p>
+			<p className="sub_sub_title" >We also offer our gratitude to Aboriginal and Torres Strait Islander people and communities across all lands in which QL Space operates. QL Space recognizes their generosity and wisdom in how they continue to care for Country and share their knowledge, which in turn helps us to understand and navigate Country -safely and respectfully.</p>
 			
 			<Form.Group className="mb-3" controlId="formBasicCheckbox">
 					<Form.Check onChange={this.handleChange} id="disabledSelect" type="checkbox" label="I acknowledge" />
