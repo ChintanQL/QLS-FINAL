@@ -3442,3 +3442,13 @@ header li.nav-item.current-menu-item a {
 .modal-fullscreen .modal-body {
     overflow-y: unset;
 }
+.container-with-padding{
+    padding-bottom: 90px !important;
+}
+.date_icon span {
+    margin-right: 2px;
+}
+
+.uhgbv span {
+    margin-right: 5px;
+}
