@@ -3436,4 +3436,9 @@ header li.nav-item.current-menu-item a {
 .form-check {
     margin-bottom: 0;
 }
-
+.model_wrt.model-custom.modal.show { 
+--bs-modal-bg: hwb(0deg 0% 100% / 15%) !important;
+}
+.modal-fullscreen .modal-body {
+    overflow-y: unset;
+}
