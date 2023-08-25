@@ -198,7 +198,9 @@ export default function Blog() {
 
                                             })}
 
-                                            <ul className="pagination"> {renderPageNumbers()}</ul>
+                                          {totalItems > itemsPerPage && (
+                                            <ul className="pagination">{renderPageNumbers()}</ul>
+                                        )}
 
                                         </div>
                                     </div>
