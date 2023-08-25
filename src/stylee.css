@@ -3413,3 +3413,11 @@ header li.nav-item.current-menu-item a {
     .wpcf7-form .col-6{width:100%;}
 
 }
+.btn_g:hover a {
+    color: #00D4FF;
+    background: transparent;
+    border: solid 3px #00D4FF;
+}
+.top_arrow_wrap .svg-inline--fa.fa-w-14{
+    width: 20px !important;
+}
