@@ -23,7 +23,7 @@ export default ({ data }) => {
                 <div className="col-md-12">
                   <div className="our_main_heading text-center">
                     <div className="bread_cumg">
-                      <h1 className="text-center"><strong>Partner </strong> details</h1>
+                      <h1 className="text-center"><strong>Partners </strong> details</h1>
                       <p>{news.title}</p>
                     </div>
                   </div>
