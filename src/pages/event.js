@@ -186,7 +186,7 @@ export default function Event() {
                                                                     <div className="heading_nmb">
                                                                         <h4>
                                                                             <Link to={"/event/" + event.slug}>
-                                                                                {event.title.split('').slice(0,50).join('')}...</Link>
+                                                                                {event.title.split('').slice(0,30).join('')}...</Link>
                                                                         </h4>
                                                                         <div className="next_page">
                                                                             <Link to={"/event/" + event.slug} className="read-more"> Read more
