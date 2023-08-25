@@ -207,7 +207,7 @@ export default function Footer() {
 														</div>
 														<div className="righti_text">
 															<div className="rig_th">
-																<span>Addess</span>
+																<span>Address</span>
 																<p>Ground Floor, Space Lab Building, Lot Fourteen, Frome Road, ADELAIDE | SA |5000</p>
 															</div>
 														</div>
