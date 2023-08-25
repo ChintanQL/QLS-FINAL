@@ -190,8 +190,9 @@ export default function Whatsnew() {
 													</div>
 												)
 											})}
-											<ul className="pagination"> 
-												{renderPageNumbers()}</ul>
+											{totalItems > itemsPerPage && (
+                                            <ul className="pagination">{renderPageNumbers()}</ul>
+                                        )}
 										</div>
 									</div>
 								</div>
