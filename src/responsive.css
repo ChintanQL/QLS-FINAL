@@ -2,6 +2,29 @@
 .form-check label.form-check-label {
     vertical-align: sub;
 }
+.form-check label.form-check-label {
+    vertical-align: bottom;
+} 
+@media (max-width: 575px){
+.our_news_leeter iframe {
+    min-height: 281px!important;
+}
+}
+@media(min-width: 576px) and (max-width: 767px){
+
+.itemsnq.itemsnq1 {
+    float: left;
+    width: 50%;
+}
+
+.itemsnq.itemsnq2 {
+    float: left;
+    width: 50%;
+}
+.our_news_leeter iframe {
+    min-height: 300px!important;
+}
+    }
 
 .modal-backdrop.show {
   opacity: var(--bs-backdrop-opacity);
