@@ -1438,7 +1438,7 @@ header#header1 nav.navbar.navbar-expand-lg.header_innerd .container div#navbarSu
 }
 /*new  chnages  Date  07-04-2023*/
 @media(max-width: 767px){
-    .our_news_leeter iframe{min-height: 240px !important;}
+   
     .our_main_heading{
         height: auto;
     }
