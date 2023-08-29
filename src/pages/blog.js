@@ -127,7 +127,7 @@ export default function Blog() {
                                                 </div>
                                                 <div className="img_arrow">
                                                     <div className="roww_wrap">
-                                                        <a href="#"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
+                                                        <a href="#"><img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -165,17 +165,17 @@ export default function Blog() {
                                                         <div className="our_lkhb">
                                                             <div className="imh_bc">
                                                                 <div className="inner_ghv">
-                                                                    <a href="https://www.qlspace.com.au/from-space-to-the-ground-how-satellite-monitoring-helps-predict-and-respond-to-natural-disasters/">
+                                                                    <a href="https://admin.qlspace.com.au/from-space-to-the-ground-how-satellite-monitoring-helps-predict-and-respond-to-natural-disasters/">
 
                                                                         <img src={blog.news.archiveImage.sourceUrl} />
                                                                     </a>
                                                                 </div>
                                                                 <div className="date_wrad_news">
                                                                     <div className="date_rn">
-                                                                        <div className="date_icon"><span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{blog.featuredImage.node.date}</div>
+                                                                        <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{blog.featuredImage.node.date}</div>
                                                                     </div>
                                                                     <div className="oir_amin">
-                                                                        <div className="uhgbv"><span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{blog.featuredImage.node.author && blog.featuredImage.node.author.node && blog.featuredImage.node.author.node.name}</div>
+                                                                        <div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{blog.featuredImage.node.author && blog.featuredImage.node.author.node && blog.featuredImage.node.author.node.name}</div>
                                                                     </div>
                                                                 </div>
                                                                 <div className="heading_nmb">
@@ -187,7 +187,7 @@ export default function Blog() {
 
                                                                     <div className="next_page">
                                                                         <Link to={"/blog/" + blog.slug} className="read-more"> Read more
-                                                                            <span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/arrowright.png" /></span>
+                                                                            <span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/arrowright.png" /></span>
                                                                         </Link>
                                                                     </div>
                                                                 </div>
