@@ -129,7 +129,7 @@ const Solution = () => {
 																	</div>
 																	<div className="img_arrow">
 																		<div className="roww_wrap">
-																			<a href="#"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
+																			<a href="#"><img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
 																		</div>
 																	</div>
 																</div>
@@ -152,26 +152,26 @@ const Solution = () => {
 
 																					</div>
 																					<div className="image_rowund_sebx">
-																						<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round" />
+																						<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round" />
 																					</div>
 																					<div className="imge_iconsbx">
 																						<div className="image_gnbddbx">
 																							<div className="roghrtfbx">
 
 																								<div className="ghbdbx">
-																									<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg" />
+																									<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg" />
 																								</div>
 																								<div className="ghbdbx1">
-																									<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg" />
+																									<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg" />
 																								</div>
 																								<div className="ghbdbx2">
-																									<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg" />
+																									<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg" />
 																								</div>
 																								<div className="ghbdbx3">
-																									<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg" />
+																									<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg" />
 																								</div>
 																								<div className="ghbdbx4">
-																									<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg" />
+																									<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg" />
 																								</div>
 																							</div>
 																						</div>
@@ -232,7 +232,7 @@ const Solution = () => {
 												</div>
 												<div className="img_arrow">
 													<div className="roww_wrap">
-														<a href="#"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
+														<a href="#"><img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
 													</div>
 												</div>
 											</div>
@@ -255,26 +255,26 @@ const Solution = () => {
 
 																</div>
 																<div className="image_rowund_sebx">
-																	<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round" />
+																	<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/round.svg" alt="round" />
 																</div>
 																<div className="imge_iconsbx">
 																	<div className="image_gnbddbx">
 																		<div className="roghrtfbx">
 
 																			<div className="ghbdbx">
-																				<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg" />
+																				<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/star.svg" />
 																			</div>
 																			<div className="ghbdbx1">
-																				<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg" />
+																				<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/bloone.svg" />
 																			</div>
 																			<div className="ghbdbx2">
-																				<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg" />
+																				<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/eardff.svg" />
 																			</div>
 																			<div className="ghbdbx3">
-																				<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg" />
+																				<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/wav.svg" />
 																			</div>
 																			<div className="ghbdbx4">
-																				<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg" />
+																				<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/moon.svg" />
 																			</div>
 																		</div>
 																	</div>
