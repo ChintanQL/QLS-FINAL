@@ -780,7 +780,7 @@ left: 10px;
     .homebnr{padding: 120px 0 !important;}
     .secation01::after {
         background-size: 90%;
-        background-image: url(http://steamlinedesign.com/suchi/qls/wp-content/uploads/2023/03/sortearth.png);
+        background-image: url(https://admin.qlspace.com.au/wp-content/uploads/2023/03/sortearth.png);
         background-position: center center;
         opacity: 0.5;
     }
@@ -1092,7 +1092,7 @@ right: 100px;
 }
 .secation01::after{
   background-size: 90%;
-    background-image: url(http://steamlinedesign.com/suchi/qls/wp-content/uploads/2023/03/sortearth.png);
+    background-image: url(https://admin.qlspace.com.au/wp-content/uploads/2023/03/sortearth.png);
     background-position: center center;
     opacity: 0.5;  
 }
@@ -1169,7 +1169,7 @@ right: 100px;
 .secation01::after{
   background-position: center  center;
     background-size: 80%;  
-    background-image: url('http://steamlinedesign.com/suchi/qls/wp-content/uploads/2023/03/Mask-group-6-1-1.png');
+    background-image: url('https://admin.qlspace.com.au/wp-content/uploads/2023/03/Mask-group-6-1-1.png');
 }
 .gidr_news {
     display: block !important;
