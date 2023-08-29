@@ -142,7 +142,7 @@ export default function Videos() {
                                             </div>
                                             <div className="img_arrow">
                                                 <div className="roww_wrap">
-                                                    <a href="#"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
+                                                    <a href="#"><img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -193,10 +193,10 @@ export default function Videos() {
                                                                 </div>
                                                                 <div className="date_wrad_news">
                                                                     <div className="date_rn">
-                                                                        <div className="date_icon"><span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{vido.featuredImage.node.date}</div>
+                                                                        <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{vido.featuredImage.node.date}</div>
                                                                     </div>
                                                                     <div className="oir_amin">
-                                                                        <div className="uhgbv"><span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{vido.featuredImage.node.author && vido.featuredImage.node.author.node && vido.featuredImage.node.author.node.name}</div>
+                                                                        <div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{vido.featuredImage.node.author && vido.featuredImage.node.author.node && vido.featuredImage.node.author.node.name}</div>
                                                                     </div>
                                                                 </div>
                                                                 <div className="heading_nmb">
@@ -206,7 +206,7 @@ export default function Videos() {
                                                                     </h4>
                                                                     <div className="next_page">
                                                                         <Link to={"/video/" + vido.slug} className="read-more"> Read more
-                                                                            <span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/arrowright.png" /></span>
+                                                                            <span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/arrowright.png" /></span>
                                                                         </Link>
                                                                     </div>
                                                                 </div>
