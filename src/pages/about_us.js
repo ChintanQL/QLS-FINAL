@@ -201,7 +201,7 @@ const About = () => {
 																			<div className="img_arrow">
 																				<div className="roww_wrap">
 																					<a href="#">
-																						<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" />
+																						<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" />
 																					</a>
 																				</div>
 																			</div>
@@ -299,7 +299,7 @@ const About = () => {
 																													{prop.linkedinurl}
 																													target="_blank"
 																												>
-																													<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" />
+																													<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" />
 																												</a>
 																											</div>
 																										</div>
@@ -401,7 +401,7 @@ const About = () => {
 													<div className="img_arrow">
 														<div className="roww_wrap">
 															<a href="#">
-																<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" />
+																<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" />
 															</a>
 														</div>
 													</div>
@@ -522,7 +522,7 @@ const About = () => {
 																							{prop.linkedinurl}
 																							target="_blank"
 																						>
-																							<img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" />
+																							<img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/linkdin.png" />
 																						</a>
 																					</div>
 																				</div>
