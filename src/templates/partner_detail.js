@@ -29,7 +29,7 @@ export default ({ data }) => {
                   </div>
                   <div className="img_arrow">
                     <div className="roww_wrap">
-                      <a href="#"><img src="https://www.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
+                      <a href="#"><img src="https://admin.qlspace.com.au/wp-content/themes/qls/assets/image/arrow.svg" /></a>
                     </div>
                   </div>
                 </div>
