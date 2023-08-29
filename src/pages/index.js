@@ -73,7 +73,7 @@ const Home = () => {
       console.log("1");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group.png")';
       }
     } else if (scrollTop > 548 && scrollTop < 600) {
       // setScrollClass('scroll_2');
@@ -81,7 +81,7 @@ const Home = () => {
       console.log("2");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-1.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-1.png")';
       }
     } else if (scrollTop > 1180 && scrollTop < 1300) {
       // setScrollClass('scroll_3');
@@ -89,7 +89,7 @@ const Home = () => {
       console.log("3");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-2.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-2.png")';
       }
     } else if (scrollTop > 1748 && scrollTop < 1800) {
       // setScrollClass('scroll_4');
@@ -97,7 +97,7 @@ const Home = () => {
       console.log("4");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-3.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-3.png")';
       }
     } else if (scrollTop > 2120 && scrollTop < 2200) {
       // setScrollClass('scroll_5');
@@ -105,7 +105,7 @@ const Home = () => {
       console.log("5");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-4.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-4.png")';
       }
     } else if (scrollTop > 2520 && scrollTop < 2560) {
       // setScrollClass('scroll_6');
@@ -113,7 +113,7 @@ const Home = () => {
       console.log("6");
       const back_ghbdd = document.getElementById('back_ghbdd');
       if (back_ghbdd) {
-        back_ghbdd.style.backgroundImage = 'url("https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-5.png")';
+        back_ghbdd.style.backgroundImage = 'url("https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-5.png")';
       }
     } else if (scrollTop > 2575) {
 
@@ -822,7 +822,7 @@ const Home = () => {
                                 <li>Near real-time emission monitoring in mining</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group.png" />
                               </div>
                             </div>
                             <div class="our_data_for_mob">
@@ -835,7 +835,7 @@ const Home = () => {
                                 <li>Improve agri-banking and crop insurance by reducing losses with smarter risk estimates and real-time monitoring</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-1.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-1.png" />
                               </div>
                             </div>
                             <div class="our_data_for_mob">
@@ -849,7 +849,7 @@ const Home = () => {
                                 <li>Remote location monitoring of assets and infrastructure</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-2.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-2.png" />
                               </div>
                             </div>
                             <div class="our_data_for_mob">
@@ -861,7 +861,7 @@ const Home = () => {
                                 <li>Monitor inland waterway health</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-3.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-3.png" />
                               </div>
                             </div>
                             <div class="our_data_for_mob">
@@ -872,7 +872,7 @@ const Home = () => {
                                 <li>Aid recovery by detecting near real time changes to allow immediate relief measures to be taken during natural calamities</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-4.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-4.png" />
                               </div>
                             </div>
                             <div class="our_data_for_mob">
@@ -883,7 +883,7 @@ const Home = () => {
                                 <li>Detect chemical seepages across land classes</li>
                               </ul>
                               <div class="imged">
-                                <img src="https://www.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-5.png" />
+                                <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/04/Mask-group-5.png" />
                               </div>
                             </div>
                           </div>
