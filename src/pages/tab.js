@@ -310,7 +310,7 @@ const Tab = () => {
                                   <div className="our_main_heading">
                                     <h1 dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }}></h1>
                                     <div className="imge_for_mobile">
-                                      <img src="http://steamlinedesign.com/suchi/qls/wp-content/uploads/2023/03/Mask-group-6-1-1.png" />
+                                      <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/Mask-group-6-1-1.png" />
                                     </div>
                                   </div>
                                 </div>
@@ -686,7 +686,7 @@ const Tab = () => {
                           <div className="our_main_heading" >
                             <h1 dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }}></h1>
                             <div className="imge_for_mobile">
-                              <img src="http://steamlinedesign.com/suchi/qls/wp-content/uploads/2023/03/Mask-group-6-1-1.png" />
+                              <img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/Mask-group-6-1-1.png" />
                             </div>
                           </div>
                         </div>
