@@ -5,6 +5,17 @@
 .form-check label.form-check-label {
     vertical-align: bottom;
 } 
+
+@media (max-width: 768px){
+#myIframe {
+    height: 600px !important;
+}
+.modal-dialog.modal-dialog-centered.model_inner {
+    margin-top: 80px !important;
+}
+}
+
+
 @media (max-width: 575px){
 .our_news_leeter iframe {
     min-height: 281px!important;
