@@ -146,7 +146,7 @@ export default function Event() {
                                             <div className="col-md-12">
                                                 <div className="list_tab_wg">
                                                     <ul>
-                                                        <li className="active_cl"><Link to='/app/event.js'>Events</Link></li>
+                                                        <li className="active_cl"><Link to='/event'>Events</Link></li>
                                                         <li ><Link to='/news'>News</Link></li>
                                                         <li><Link to='/blog'>Blogs</Link></li>
                                                         <li><Link to='/partner'>Partner News</Link></li>
