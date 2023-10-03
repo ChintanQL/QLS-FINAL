@@ -6,7 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { Link, StaticQuery } from 'gatsby'
 import frame1 from '../../image/Frame1.png';
 import frame2 from '../../image/Frame2.png';
-import frame3 from '../../image/Frame3.png';
+import frame3 from '../../image/tweet.svg';
 import frame4 from '../../image/Frame4.png';
 import frame5 from '../../image/Frame5.png';
 import footerlogo from '../../image/footerlogo.png';
