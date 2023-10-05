@@ -5,7 +5,10 @@
 .form-check label.form-check-label {
     vertical-align: bottom;
 } 
-
+.clsss{
+  width: 78%;
+  margin-top: 4px;
+}
 @media (max-width: 768px){
 #myIframe {
     height: 600px !important;
