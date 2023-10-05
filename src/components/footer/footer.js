@@ -101,7 +101,7 @@ export default function Footer() {
 															<li><a href="https://www.facebook.com/qlspaces" target="_blank">
 																<img src={frame1} alt="" /></a></li>
 															<li><a href='https://www.linkedin.com/company/qlspace/'target="_blank"  ><img src={frame2} alt="" /></a></li>
-															<li><a href="https://twitter.com/qlspace_" target="_blank"><img src={frame3} alt="" /></a></li>
+															<li class="clsss"><a href="https://twitter.com/qlspace_" target="_blank"><img src={frame3} alt="" /></a></li>
 															<li><a href="https://www.youtube.com/channel/UC6xhk9nI6VxQ0UJpLjDmKvA/videos" target="_blank"><img src={frame4} alt="" /></a></li>
 															<li><a href="#" ><img src={frame5} alt="" /></a></li>
 														</ul>
