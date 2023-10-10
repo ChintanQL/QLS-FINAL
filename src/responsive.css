@@ -1,3 +1,6 @@
+.model_wrt .modal-dialog.modal-dialog-centered.model_inner {
+    min-height: unset !important;
+}
 /*start  Responsive  */
 .form-check label.form-check-label {
     vertical-align: sub;
