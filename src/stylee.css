@@ -105,8 +105,8 @@
       font-family: 'Roboto Condensed';
       font-style: normal;
       font-weight: 600;
-      font-size: 90px;
-      line-height: 105px;
+     font-size: 60px !important;
+    line-height: 67px !important;
       text-transform: uppercase;
       color: #ffffff;
       /*padding-top: 120px;*/
@@ -116,8 +116,8 @@
       font-family: 'Roboto Condensed';
       font-style: normal;
       font-weight: 600;
-      font-size: 90px;
-      line-height: 105px;
+     font-size: 60px !important;
+    line-height: 67px !important;
       text-transform: uppercase;
       color: #00D4FF;
   }
