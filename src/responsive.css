@@ -1,3 +1,12 @@
+.our_main_heading h1 {
+	font-size: 60px;
+    line-height: 67px;
+}
+.our_main_heading h1 strong {
+	font-size: 60px;
+    line-height: 67px;
+}
+
 .model_wrt .modal-dialog.modal-dialog-centered.model_inner {
     min-height: unset !important;
 }
