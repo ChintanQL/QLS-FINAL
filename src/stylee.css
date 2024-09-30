@@ -15,14 +15,14 @@
 .our_main_heading h1 {
 /*     font-size: 90px;
     line-height: 105px; */
-	font-size: 60px;
-    line-height: 67px;
+	font-size: 60px !important;
+    line-height: 67px !important;
 }
 .our_main_heading h1 strong {
 /*     font-size: 90px;
     line-height: 105px; */
-	font-size: 60px;
-    line-height: 67px;
+	font-size: 60px !important;
+    line-height: 67px !important;
 }
 .video-modal {
     z-index: 99999;
