@@ -50,7 +50,7 @@ export default ({ data }) => {
                       <h1>{news.title}</h1>
                     </div>
                     <div className="news_details_image">
-                      
+                                            <img src={news.featuredImage.node.sourceUrl} />
                     </div>
                     <div className="cont_news_details">
                       <div className="cont_wrsf">
