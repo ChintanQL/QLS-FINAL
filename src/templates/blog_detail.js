@@ -50,7 +50,7 @@ export default ({ data }) => {
                       <h1>{news.title}</h1>
                     </div>
                     <div className="news_details_image">
-  {news.featuredImage && news.featuredImage.node ? <img src={news.featuredImage.node.sourceUrl} alt="Featured" /> : ""}
+                       <img src={news.featuredImage.node.sourceUrl} />
                                             
                     </div>
                     <div className="cont_news_details">
