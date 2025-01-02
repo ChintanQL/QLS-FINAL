@@ -258,7 +258,7 @@ export default function Footer() {
 											<div className="col-md-6">
 												<div className="outg_o">
 
-													<p>Copyright ©2023 SPACE. Powered By <a href="https://www.qltech.com.au/" target="_blank"> QL Tech </a></p>
+													<p>Copyright ©2025 SPACE. Powered By <a href="https://www.qltech.com.au/" target="_blank"> QL Tech </a></p>
 												</div>
 											</div>
 											<div className="col-md-6">
