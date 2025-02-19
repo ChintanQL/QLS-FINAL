@@ -22,6 +22,7 @@ export default function Partner() {
                     link
                     slug
                     title
+                    date(formatString: "DD MMMM yyyy")
                     news {
                         archiveImage {
                           sourceUrl
@@ -169,7 +170,7 @@ export default function Partner() {
                                                             </div>
                                                             <div className="date_wrad_news">
                                                                 <div className="date_rn">
-                                                                    <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{partner.featuredImage.node.date}</div>
+                                                                    <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{partner.date}</div>
                                                                 </div>
                                                                 <div className="oir_amin">
                                                                     <div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span> {partner.featuredImage.node.author && partner.featuredImage.node.author.node && partner.featuredImage.node.author.node.name}</div>
