@@ -21,6 +21,7 @@ export default function Whatsnew() {
 						id
 						slug
 						title
+      date(formatString: "DD MMMM yyyy")
 						news {
 							archiveImage {
 							  sourceUrl
@@ -167,7 +168,7 @@ export default function Whatsnew() {
 																</div>
 																<div className="date_wrad_news">
 																	<div className="date_rn">
-																		<div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{news.featuredImage.node.date}</div>
+																		<div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{news.date}</div>
 																	</div>
 																	<div className="oir_amin">
 																		<div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{news.featuredImage.node.author && news.featuredImage.node.author.node && news.featuredImage.node.author.node.name}</div>
