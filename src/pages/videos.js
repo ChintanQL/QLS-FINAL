@@ -35,6 +35,7 @@ export default function Videos() {
                     content
                     title
                     slug
+                    date(formatString: "DD MMMM yyyy")
                     news {
                         archiveImage {
                           sourceUrl
@@ -193,7 +194,7 @@ export default function Videos() {
                                                                 </div>
                                                                 <div className="date_wrad_news">
                                                                     <div className="date_rn">
-                                                                        <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{vido.featuredImage.node.date}</div>
+                                                                        <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span>{vido.date}</div>
                                                                     </div>
                                                                     <div className="oir_amin">
                                                                         <div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span>{vido.featuredImage.node.author && vido.featuredImage.node.author.node && vido.featuredImage.node.author.node.name}</div>
