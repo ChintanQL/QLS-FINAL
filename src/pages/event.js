@@ -22,6 +22,7 @@ export default function Event() {
                 title
                 slug
                 link
+                date(formatString: "DD MMMM yyyy")
                 id
                 news {
                     archiveImage {
@@ -176,7 +177,7 @@ export default function Event() {
                                                                     </div>
                                                                     <div className="date_wrad_news">
                                                                         <div className="date_rn">
-                                                                            <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span> {event.featuredImage.node.date}</div>
+                                                                            <div className="date_icon"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/icon-_calendar-outline_.png" /></span> {event.date}</div>
                                                                         </div>
                                                                         <div className="oir_amin">
                                                                             <div className="uhgbv"><span><img src="https://admin.qlspace.com.au/wp-content/uploads/2023/03/userfv.png" /></span> {event.featuredImage.node.author && event.featuredImage.node.author.node && event.featuredImage.node.author.node.name}
