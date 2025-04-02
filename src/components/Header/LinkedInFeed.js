@@ -1,20 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { Component } from 'react';
 
-const LinkedInFeed = () => {
-  useEffect(() => {
-   console.log("here");
-    if (window.Elfsight) {
-      window.Elfsight.init();
-      console.log("init");
-    }
-  }, []);
+class LinkedInFeed extends Component {
+  componentDidMount() {
+   
+    const script = document.createElement('script');
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+    script.async = true;
 
-  return (
-    <div
-      className="elfsight-app-24c802da-3ea0-4fad-b5d4-3e16bccb0fa2"
-      data-elfsight-app-lazy
-    />
-  );
-};
+   
+    document.body.appendChild(script);
+
+    
+  }
+
+  render() {
+    return (
+      <div
+        className="elfsight-app-24c802da-3ea0-4fad-b5d4-3e16bccb0fa2"
+        data-elfsight-app-lazy
+      />
+    );
+  }
+}
 
 export default LinkedInFeed;
