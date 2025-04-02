@@ -6,6 +6,8 @@ import "../responsive.css"
 import Layout from "../components/layout/layout"
 import { Link, StaticQuery, graphql } from 'gatsby';
 import Footer from '../components/footer/footer';
+import LinkedInFeed from "../components/Header/LinkedInFeed";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -958,6 +960,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
+				  <LinkedInFeed />
                     <div className="htbdgh">
                       <div className="htbdgh">
                         <div className="gidr_news">
