@@ -568,7 +568,7 @@ console.log("here");
                                   </div>
                                 </div>
                               </div>
-				<div className="htbdgh d-none">
+				<div className="htbdgh">
                                 <div className="htbdgh">
                                   <div className="gidr_news">
 				<div
