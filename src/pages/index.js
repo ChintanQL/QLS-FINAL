@@ -568,7 +568,19 @@ console.log("here");
                                   </div>
                                 </div>
                               </div>
-                              <div className="htbdgh">
+				<div className="htbdgh d-none">
+                                <div className="htbdgh">
+                                  <div className="gidr_news">
+				<div
+      className="elfsight-app-24c802da-3ea0-4fad-b5d4-3e16bccb0fa2"
+      data-elfsight-app-lazy
+    />
+					    </div>
+                                </div>
+                              </div>    
+
+					    
+                              <div className="htbdgh d-none">
                                 <div className="htbdgh">
 
 
