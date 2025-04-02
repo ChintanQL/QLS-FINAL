@@ -562,7 +562,10 @@ console.log("here");
                                     <div className="our_about_wrap">
                                       <h2 className="text-start">What's New</h2>
                                       <h4 className="text-start">Get the latest updates and helpful information</h4>
-
+					<div
+      className="elfsight-app-24c802da-3ea0-4fad-b5d4-3e16bccb0fa2"
+      data-elfsight-app-lazy
+    />
 
                                     </div>
                                   </div>
