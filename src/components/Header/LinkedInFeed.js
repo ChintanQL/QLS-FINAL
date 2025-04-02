@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 
 const LinkedInFeed = () => {
   useEffect(() => {
-    // Wait until the script is loaded, and then initialize the widget
+   console.log("here");
     if (window.Elfsight) {
       window.Elfsight.init();
+      console.log("init");
     }
   }, []);
 
