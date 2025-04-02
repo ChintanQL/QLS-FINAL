@@ -9,7 +9,7 @@ const LinkedInFeed = () => {
     document.body.appendChild(script);
   
     return () => {
-      // Clean up the script when the component is unmounted
+    
       document.body.removeChild(script);
     };
   }, []);
