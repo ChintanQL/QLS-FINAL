@@ -956,11 +956,12 @@ const Home = () => {
                           <div className="our_about_wrap">
                             <h2 className="text-start">What's New</h2>
                             <h4 className="text-start">Get the latest updates and helpful information</h4>
+				   <LinkedInFeed />
                           </div>
                         </div>
                       </div>
                     </div>
-				  <LinkedInFeed />
+				 
                     <div className="htbdgh">
                       <div className="htbdgh">
                         <div className="gidr_news">
