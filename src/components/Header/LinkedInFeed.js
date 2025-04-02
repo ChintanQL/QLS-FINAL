@@ -7,6 +7,7 @@ const LinkedInFeed = () => {
     script.src = 'https://static.elfsight.com/platform/platform.js';
     script.async = true;
     document.body.appendChild(script);
+    sonsole.log(script);
   
     return () => {
     
