@@ -6,7 +6,7 @@ import "../responsive.css"
 import Layout from "../components/layout/layout"
 import { Link, StaticQuery, graphql } from 'gatsby';
 import Footer from '../components/footer/footer';
-import LinkedInFeed from "../components/Header/LinkedInFeed";
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
@@ -140,7 +140,12 @@ const Home = () => {
         setIsFullpage(true);
       }
     };
-
+	const script = document.createElement('script');
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+    script.async = true;
+console.log("here");
+   
+    document.body.appendChild(script);
     handleResize();
 
     window.addEventListener('resize', handleResize);
